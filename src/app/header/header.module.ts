@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header.component';
-import { NgbNav, NgbNavItem, NgbNavLink, NgbNavContent, NgbNavOutlet } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -9,10 +8,12 @@ import { NgbNav, NgbNavItem, NgbNavLink, NgbNavContent, NgbNavOutlet } from '@ng
         HeaderComponent
     ],
     imports: [
-        CommonModule, NgbNav, NgbNavItem, NgbNavLink, NgbNavContent, NgbNavOutlet
+        CommonModule
     ],
     exports: [
         HeaderComponent
     ]
 })
-export class HeaderModule { }
+export class HeaderModule {
+
+}
