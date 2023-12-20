@@ -1,0 +1,39 @@
+:host {
+    width: 100vb;
+    height: 100%;
+}
+
+#Pink1,
+#Pink2,
+#Blue {
+    transition: all 1s ease;
+}
+
+#Pink1 {
+    transform: translate(-100%);
+}
+
+svg:hover #Pink1 {
+    transform: translate(20%);
+}
+
+svg:hover #Blue {
+    transform: translate(20%);
+}
+
+svg:hover #Pink2 {
+    transform: translate(40%);
+    opacity: 0;
+}
+
+svg:hover #Pink1 {
+    transform: translate(0%);
+}
+
+#BlueGroup {
+    fill: var(--blue-color);
+}
+
+#PinkGroup {
+    fill: var(--pink-color);
+}
