@@ -6,25 +6,25 @@
 }
 
 #vid-box {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 65vh;
-    aspect-ratio: 17/10;
-    background-color: var(--dark-color);
-    border-radius: 20px;
-}
-
-#vid-outline {
-    position: relative;
-    height: 500px;
+    height: 50vh;
     aspect-ratio: 16/9;
     overflow: hidden;
 }
 
+// #vid-outline {
+//     position: relative;
+//     height: 500px;
+//     aspect-ratio: 16/9;
+//     overflow: hidden;
+// }
+
 #intro-vid {
     position: absolute;
-    border-radius: 20px;
+    border-radius: 50px;
     height: 100%;
     width: 100%;
 }
