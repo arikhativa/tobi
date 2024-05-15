@@ -6,25 +6,21 @@
 }
 
 .container {
+    flex: 1;
     display: flex;
-    gap: 30vw;
-    height: 15vh;
+    height: 20vh;
     flex-direction: row;
 }
 
-.logo-container {
+app-logo {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
-}
-
-.logo-container svg {
-    fill: var(--light-color);
-    width: 128px;
-    height: 15vh;
+    justify-content: left;
+    padding-left: 20vh;
+    padding-bottom: 2vh;
 }
 
 app-navbar {
-    flex: 4;
+    flex: 1;
 }

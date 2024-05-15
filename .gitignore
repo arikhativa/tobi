@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Big files
+src/assets/vid/intro-vid.mp4
+
 # Compiled output
 /dist
 /tmp
